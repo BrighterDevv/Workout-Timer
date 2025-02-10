@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout Timer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="timer-container">
+    <div class="top-bar">
+      <button id="back-button">← Back</button>
+    </div>
+    <h2 id="workout-name">Workout Name</h2>
+    <div class="timer-display">
+      <div id="current-status">Exercise Name / Break</div>
+      <div id="countdown">00:00</div>
+    </div>
+    <div class="controls">
+      <button id="play-button">▶ Play</button>
+      <button id="pause-button">⏸ Pause</button>
+      <button id="stop-button">⏹ Stop</button>
+    </div>
+    <div id="rep-counter">Reps: 0</div>
+  </div>
+  <script src="workouts.js"></script>
+  <script src="timer.js"></script>
+</body>
+</html>
